@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Skills Test</title>
+</head>
+<body>
+    <h1>Club Information</h1>
+
+    <div class="container">
+        <label>Select a Club:</label>
+        <select id="clubchoices">
+            <option value="Fencing">Fencing Club</option>
+            <option value="TKD">TKD Club</option>
+            <option value="Literary">Literary Club</option>
+        </select>
+        <button py-click="show_info">Club Information</button>
+    </div>
+
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
